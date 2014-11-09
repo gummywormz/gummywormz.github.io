@@ -1,0 +1,16 @@
+body{
+COLOR: #FFFFFF;
+font-size:100%;
+background-color:#000000;
+}
+
+a:visited{
+COLOR: #ADADAD;
+}
+
+a:hover{
+COLOR: #646464;
+}
+a{
+COLOR: #aaaaaa;
+}
