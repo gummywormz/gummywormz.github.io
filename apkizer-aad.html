@@ -1,0 +1,62 @@
+<HTML>
+<HEAD>
+<TITLE>Paul "Gummywormz" Alves - AAD</TITLE>
+<LINK rel="stylesheet" type="text/css" href="style.css">
+</HEAD>
+<BODY>
+<CENTER>
+<IMG SRC='res/logo4.png' height="5%" width = "15%">
+<BR>
+<BR>
+<a href= 'index.html'><IMG SRC='res/button.png'
+	onmouseover="this.src='res/button-a.png';" 
+    onmouseout= "this.src='res/button.png';"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href = 'blog.html'><IMG SRC='res/button2.png'
+	onmouseover="this.src='res/button2-a.png';" 
+    onmouseout= "this.src='res/button2.png';"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href = 'projects.html'><IMG SRC='res/button3.png'
+	onmouseover="this.src='res/button3-a.png';" 
+    onmouseout= "this.src='res/button3.png';"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href = "https://github.com/gummywormz/"><IMG SRC='res/button4.png'
+	onmouseover="this.src='res/button4-a.png';" 
+    onmouseout= "this.src='res/button4.png';"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <h1>Apkizer Setup For AAD</h1>
+	<br>
+</CENTER>
+
+
+
+Download <a href = 'dl/apkizer-aad-pack.zip'>this zip file</a>. Extract it and move the zip file to a place where you won't delete it (Do not save to your Android SDK folder.)
+
+<br>
+
+Open a terminal window. Use command + space or click on the search icon
+<br>
+<br>
+<img SRC = 'res/macterm1.png'>
+<br>
+<br>
+Navigate to the folder you extracted. HINT: type "cd " and then drag the folder to the window to go there instantly
+<br>
+Type in: "chmod +x ./install.sh" (without the quotes)
+
+Now, go to where you installed Android Studio. On Macs, this is in the executeable itself. (Right Click > Show Package Contents)
+<br>
+<br>
+<img SRC = 'res/macshowpkg.png'>
+<br>
+<br>
+Navigate to "contents/plugins/android/lib/templates/gradle-projects/NewAndroidModule/root" and replace the "build.gradle.ftl" file with the "build.gradle.ftl" file included in the zip file.
+
+<br>
+
+This applies to all new projects only. Run the task by clicking on the "Gradle" sidebar, click on the drop downs and double click archonDebug.
+<br>
+<br>
+<img SRC = 'res/macgradle.png'>
+<br>
+
+
+</BODY>
+</HTML>
