@@ -11,6 +11,11 @@ COLOR: #ADADAD;
 a:hover{
 COLOR: #646464;
 }
+
 a{
 COLOR: #aaaaaa;
+}
+
+.date{
+font-size: 85%;
 }
